@@ -1,0 +1,35 @@
+.search-box {
+  grid-gap: 10px;
+  gap: 10px;
+  width: 40vw;
+  display: flex;
+  overflow: hidden;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  font-family: Verdana;
+  border: 2px solid #808080;
+  color: #808080;
+}
+
+.search-box input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: 0;
+  color: #808080;
+  padding: 0;
+}
+
+.search-box [data-close],
+.search-box [data-search] {
+  stroke-width: 20px;
+}
+
+.search-box [data-close]:hover {
+  cursor: pointer;
+  border-radius: 50px;
+  color: hsl(0, 0%, 100%);
+  background-color: rgb(0 0 0 / 20%);
+  box-shadow: 0 0 0px 5px rgb(0 0 0 / 20%);
+}
